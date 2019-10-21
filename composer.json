@@ -1,5 +1,6 @@
 {
     "name": "zeeyn/evocms-branch-publisher",
+    "license": "MIT",
     "description": "Helps to publish/unpublish large branches in document tree",
     "type": "package",
     "authors": [
