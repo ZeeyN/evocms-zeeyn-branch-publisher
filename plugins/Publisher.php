@@ -3,6 +3,7 @@
 namespace EvolutionCMS\ZeeyN;
 
 use EvolutionCMS\Models\SiteContent;
+use Event;
 
 function rootClimber($data, string $published = '0') {
     /*
