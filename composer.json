@@ -1,0 +1,24 @@
+{
+    "name": "zeeyn/evocms-branch-publisher",
+    "description": "Helps to publish/unpublish large branches in document tree",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Nikita \"ZeeyN\" Rusakov",
+            "email": "zeeynnik@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "EvolutionCMS\\ZeeyN\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EvolutionCMS\\ZeeyN\\PublisherServiceProvider"
+            ]
+        }
+    }
+}
